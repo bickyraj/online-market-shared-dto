@@ -1,0 +1,10 @@
+jdk:
+  - openjdk17
+
+
+install:
+  - ./gradlew clean build publishToMavenLocal
+
+build:
+  directories:
+    - build/libs
