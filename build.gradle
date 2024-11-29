@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.bickyraj'
-version = '1.0.2'
+version = '1.0.3'
 
 java {
 	toolchain {
@@ -29,7 +29,7 @@ publishing {
 			from components.java
 			groupId = 'com.bickyraj'  // Change this to your group ID
 			artifactId = 'shared-dto'  // The name of your artifact
-			version = '1.0.2'  // The version of your package
+			version = '1.0.3'  // The version of your package
 		}
 	}
 }
